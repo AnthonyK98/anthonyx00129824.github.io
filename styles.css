@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: slategray;
+    background-image: url("mini.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar .nav-item .nav-link {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+
+
+}
+
+.navbar .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav li {
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+.navbar .navbar-nav{
+    color: tomato;
+}
+.navbar .navbar-nav li a {
+    color: black;
+}
+
+.me {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid rgba(0, 0, 0, 0.54);
+    margin: auto;
+}
+
+.card {
+    border: 6px solid rgba(0, 0, 0, 0.74);
+    background-color: wine;
+    margin: 0;
+}
+
+.job1, .job2{
+    font-family: 'Ubuntu', sans-serif;
+    
+    font-weight: 600;
+    vertical-align: middle;
+}
+h2,
+p {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.card-text,
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
